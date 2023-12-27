@@ -26,7 +26,7 @@ namespace Async_and_await_Csharp_example
             {
                 string content = reader.ReadToEnd();
                 count = content.Length;
-                Thread.Sleep(5000);
+               Thread.Sleep(5000);
 
             }
 
